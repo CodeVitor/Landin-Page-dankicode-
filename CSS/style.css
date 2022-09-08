@@ -1,0 +1,176 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.header{
+    height: 100px;
+    width:100%;
+    background-color:#34295e;
+}
+
+.logo{
+    margin:35px 40px;
+}
+
+body{
+    background-image: url(../images/header_bg.png);
+    background-repeat: no-repeat ;
+    background-size: cover;
+}
+
+.form-c{
+    position: relative;
+    width:370px;
+    height:500px;
+    background-color: white;
+    float: right;
+    bottom: 30px;
+    margin-right: 30px;
+    border: 10px solid lightgray;
+    padding:10px;
+    color:gray;
+    
+}
+.text-form{
+    margin-bottom: 20px;
+}
+.inputs{
+    width:330px;
+    height: 50px;
+    margin-top:10px;
+    margin-bottom:10px;
+    border:solid lightgray 1px;
+}
+
+.submit-input{
+    width:250px;
+    height: 50px;
+    background-color: #34295e;
+    color: aliceblue;
+    border: none;
+    font-size: larger;
+    text-transform: uppercase;
+    margin:-15px 40px;
+    cursor: pointer;
+}
+
+.textos{
+    width:50%;
+    height:15%;
+    background-color: #34295eaa;
+    margin:100px;
+    color:white;
+}
+
+.textos ul{
+    margin:40px;
+    font-size: larger;
+    padding-top:25px;
+    
+}
+
+.textos li{
+    padding-bottom:15px;
+    margin-top: 15px;
+}
+
+.lorem{
+    width: 100%;
+    height:30%;
+    background-color:rgb(182, 177, 177) ;
+
+}
+
+.lorem h1{
+    padding-top:50px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-weight:100;
+    color:rgb(74, 68, 68)
+}
+
+.lorem p{
+    margin-left:200px;
+    margin-right:200px ;
+    text-align: justify;
+    color:rgb(74, 68, 68)
+}
+
+.lorem img{
+     width: 40px;
+    
+    margin-left: 50%;
+    margin-top: 10px; 
+    
+}
+
+.sobre{
+    background-color: white;
+    width: 100%;
+    height: 60% ;
+}
+
+.sobre h1{
+    color:#34295e;
+    padding-top: 100px;
+    text-align: center;
+    padding-bottom:60px;
+}
+
+.container{
+    display: flex;
+}
+
+.container h2{
+    margin:20px 20px;
+    color:rgb(74, 68, 68)
+}
+.container p{
+    text-align: justify;
+    color:rgb(74, 68, 68)
+}
+
+.sobre-box{
+    text-align: center;
+    padding: 40px;
+}
+
+footer{
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+    color:rgb(74, 68, 68)
+}
+
+footer p {
+    padding:10px;
+}
+
+@media screen and (max-width:1000px){
+    .form-c{
+        position: static;
+        float:none;
+        margin:10px auto;
+    }
+
+    .textos{
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width:630px){
+    .lorem p{
+        margin:50px 50px;
+    }
+
+    /* .sobre-box{
+        padding:10px;
+        
+    } */
+     .container{
+        display: block;
+     }   
+}
